@@ -1,0 +1,327 @@
+2021-06-11 17:46:01.418  INFO 2104 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8017
+2021-06-11 17:46:03.437  INFO 2104 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-ws, profiles=[default], label=null, version=8d8ada584fb14db37dbef0a9f5b7d54850308406, state=null
+2021-06-11 17:46:03.438  INFO 2104 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2021-06-11 17:46:03.458  INFO 2104 --- [restartedMain] c.a.p.a.u.PhotoAppApiUsersApplication    : No active profile set, falling back to default profiles: default
+2021-06-11 17:46:04.931  INFO 2104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-11 17:46:05.025  INFO 2104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+2021-06-11 17:46:05.537  INFO 2104 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e3fbd07-b0a7-356e-bfca-3766e074b6b6
+2021-06-11 17:46:05.557  INFO 2104 --- [restartedMain] o.s.c.a.ConfigurationClassEnhancer       : @Bean method KotlinLambdaToFunctionAutoConfiguration.kotlinToFunctionTransformerOld is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-11 17:46:05.560  INFO 2104 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-06-11 17:46:05.561  INFO 2104 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-06-11 17:46:05.618  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.621  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.623  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.631  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.633  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.637  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.639  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.652  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.653  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.665  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$f1ffba69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.666  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$709/0x000000080062e958] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.668  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.675  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.681  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.683  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.685  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.691  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.693  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.696  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.697  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.698  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.705  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.707  INFO 2104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:46:05.978  INFO 2104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-06-11 17:46:05.980  INFO 2104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-11 17:46:05.981  INFO 2104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-11 17:46:06.137  INFO 2104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-11 17:46:06.138  INFO 2104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2670 ms
+2021-06-11 17:46:06.218  INFO 2104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-06-11 17:46:06.287  INFO 2104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-06-11 17:46:06.288  INFO 2104 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/photo_app?serverTimezone=UTC'
+2021-06-11 17:46:06.544  INFO 2104 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-11 17:46:06.565  INFO 2104 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-11 17:46:06.672  INFO 2104 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-11 17:46:06.673  INFO 2104 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-11 17:46:07.172  WARN 2104 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-11 17:46:07.560  WARN 2104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-06-11 17:46:07.678  WARN 2104 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : The provided URL is empty. Will try picking an instance via load-balancing.
+2021-06-11 17:46:07.935  INFO 2104 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@227a1828, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a46bb40, org.springframework.security.web.header.HeaderWriterFilter@7a3ad5b6, org.springframework.security.web.authentication.logout.LogoutFilter@76f16c5d, com.appsdeveloperblog.photoapp.api.users.security.AuthenticationFilter@2392c2e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f5b8167, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53e06c5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54b3abcd, org.springframework.security.web.session.SessionManagementFilter@16499c23, org.springframework.security.web.access.ExceptionTranslationFilter@c773bf4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63e33f7a]
+2021-06-11 17:46:07.960  WARN 2104 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-11 17:46:07.960  INFO 2104 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-11 17:46:09.209  INFO 2104 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2021-06-11 17:46:10.401  INFO 2104 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-06-11 17:46:10.471  WARN 2104 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-11 17:46:10.495  INFO 2104 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-11 17:46:10.673  INFO 2104 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2021-06-11 17:46:10.689  INFO 2104 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2021-06-11 17:46:10.699  INFO 2104 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2021-06-11 17:46:10.719  INFO 2104 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler _org.springframework.integration.errorLogger
+2021-06-11 17:46:10.756  INFO 2104 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-06-11 17:46:10.757  INFO 2104 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-06-11 17:46:10.757  INFO 2104 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2021-06-11 17:46:10.764  INFO 2104 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2021-06-11 17:46:10.845  INFO 2104 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2021-06-11 17:46:10.845  INFO 2104 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-06-11 17:46:10.958  INFO 2104 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A, bound to: springCloudBus
+2021-06-11 17:46:10.959  INFO 2104 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-06-11 17:46:10.968  INFO 2104 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#a72525c:0/SimpleConnection@266db639 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54346]
+2021-06-11 17:46:10.981  INFO 2104 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A.errors' has 1 subscriber(s).
+2021-06-11 17:46:10.982  INFO 2104 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A.errors' has 2 subscriber(s).
+2021-06-11 17:46:10.986  INFO 2104 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A'
+2021-06-11 17:46:10.998  INFO 2104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54347 (http) with context path ''
+2021-06-11 17:46:10.999  INFO 2104 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 54347
+2021-06-11 17:46:11.003  INFO 2104 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-11 17:46:11.046  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-11 17:46:11.048  INFO 2104 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 17:46:11.087  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-11 17:46:11.087  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-11 17:46:11.087  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-11 17:46:11.087  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-11 17:46:11.088  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-11 17:46:11.088  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-11 17:46:11.088  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-11 17:46:11.155  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-11 17:46:11.165  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-06-11 17:46:11.172  INFO 2104 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-11 17:46:11.186  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1623413771186 with initial instances count: 2
+2021-06-11 17:46:11.192  INFO 2104 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-WS with eureka with status UP
+2021-06-11 17:46:11.194  INFO 2104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1623413771194, current=UP, previous=STARTING]
+2021-06-11 17:46:11.194  INFO 2104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:7785ee663ac403051d9ce417a1f89537: registering service...
+2021-06-11 17:46:11.220  INFO 2104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:7785ee663ac403051d9ce417a1f89537 - registration status: 204
+2021-06-11 17:46:12.080  INFO 2104 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A.errors
+2021-06-11 17:46:12.094  INFO 2104 --- [restartedMain] c.a.p.a.u.PhotoAppApiUsersApplication    : Started PhotoAppApiUsersApplication in 12.395 seconds (JVM running for 764.453)
+2021-06-11 17:46:12.097  INFO 2104 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-11 17:46:12.111  INFO 2104 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name users-ws.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-06-11 17:46:12.112  INFO 2104 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-11 17:46:46.529  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-06-11 17:46:46.530  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-11 17:46:46.531  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERS-WS with eureka with status DOWN
+2021-06-11 17:46:46.532  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1623413806532, current=DOWN, previous=UP]
+2021-06-11 17:46:46.533  INFO 2104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:7785ee663ac403051d9ce417a1f89537: registering service...
+2021-06-11 17:46:46.539  INFO 2104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:7785ee663ac403051d9ce417a1f89537 - registration status: 204
+2021-06-11 17:46:46.569  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-06-11 17:46:46.571  WARN 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@15.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@15.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@15.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.2/java.lang.Thread.run(Thread.java:832)
+2021-06-11 17:46:46.590  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-06-11 17:46:47.296  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-06-11 17:46:47.297  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A'
+2021-06-11 17:46:47.300  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A.errors' has 1 subscriber(s).
+2021-06-11 17:46:47.301  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.-6ImChiVRt-yo-j-rpTi-A.errors' has 0 subscriber(s).
+2021-06-11 17:46:47.304  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-06-11 17:46:47.305  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2021-06-11 17:46:47.305  INFO 2104 --- [RMI TCP Connection(20)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2021-06-11 17:55:08.160  INFO 31544 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8017
+2021-06-11 17:55:09.621  INFO 31544 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=users-ws, profiles=[default], label=null, version=8d8ada584fb14db37dbef0a9f5b7d54850308406, state=null
+2021-06-11 17:55:09.622  INFO 31544 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}]
+2021-06-11 17:55:09.641  INFO 31544 --- [restartedMain] c.a.p.a.u.PhotoAppApiUsersApplication    : No active profile set, falling back to default profiles: default
+2021-06-11 17:55:10.746  INFO 31544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-11 17:55:10.902  INFO 31544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interfaces.
+2021-06-11 17:55:11.094  WARN 31544 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-06-11 17:55:11.270  INFO 31544 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e3fbd07-b0a7-356e-bfca-3766e074b6b6
+2021-06-11 17:55:11.298  INFO 31544 --- [restartedMain] o.s.c.a.ConfigurationClassEnhancer       : @Bean method KotlinLambdaToFunctionAutoConfiguration.kotlinToFunctionTransformerOld is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-06-11 17:55:11.312  INFO 31544 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2021-06-11 17:55:11.323  INFO 31544 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2021-06-11 17:55:11.587  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.590  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthContributor' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthContributor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.593  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'bindersHealthIndicatorListener' of type [org.springframework.cloud.stream.config.BindersHealthIndicatorAutoConfiguration$BindersHealthIndicatorListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.608  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.613  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.624  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.629  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.659  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.662  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.687  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$EnhancerBySpringCGLIB$$c35cd664] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.691  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'rabbitExtendedPropertiesDefaultMappingsProvider' of type [org.springframework.cloud.stream.binder.rabbit.config.ExtendedBindingHandlerMappingsProviderConfiguration$$Lambda$711/0x0000000800634448] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.693  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'BindingHandlerAdvise' of type [org.springframework.cloud.stream.config.BindingHandlerAdvise] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.701  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spelConverter' of type [org.springframework.cloud.stream.config.SpelExpressionConverterConfiguration$SpelConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.706  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics-org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.708  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.data.RepositoryMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.710  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.714  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'management.metrics.export.simple-org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimpleProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.716  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'simpleConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.simple.SimplePropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.720  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.721  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.740  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'simpleMeterRegistry' of type [io.micrometer.core.instrument.simple.SimpleMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.753  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'repositoryTagsProvider' of type [org.springframework.boot.actuate.metrics.data.DefaultRepositoryTagsProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:11.755  INFO 31544 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'metricsRepositoryMethodInvocationListener' of type [org.springframework.boot.actuate.metrics.data.MetricsRepositoryMethodInvocationListener] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-11 17:55:12.257  INFO 31544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-06-11 17:55:12.266  INFO 31544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-11 17:55:12.266  INFO 31544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-11 17:55:12.441  INFO 31544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-11 17:55:12.441  INFO 31544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2782 ms
+2021-06-11 17:55:12.488  INFO 31544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-11 17:55:12.817  INFO 31544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-11 17:55:12.821  INFO 31544 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/photo_app?serverTimezone=UTC'
+2021-06-11 17:55:12.890  WARN 31544 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-11 17:55:12.890  INFO 31544 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-11 17:55:12.897  INFO 31544 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@29339acb
+2021-06-11 17:55:13.078  INFO 31544 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-11 17:55:13.152  INFO 31544 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-11 17:55:13.287  INFO 31544 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-11 17:55:13.428  INFO 31544 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-06-11 17:55:14.039  INFO 31544 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-11 17:55:14.050  INFO 31544 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-11 17:55:14.484  WARN 31544 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-11 17:55:14.621  WARN 31544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-06-11 17:55:14.688  WARN 31544 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : The provided URL is empty. Will try picking an instance via load-balancing.
+2021-06-11 17:55:14.942  INFO 31544 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31ede787, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ff34e4b, org.springframework.security.web.header.HeaderWriterFilter@b0ebc7b, org.springframework.security.web.authentication.logout.LogoutFilter@49fe9878, com.appsdeveloperblog.photoapp.api.users.security.AuthenticationFilter@1db8d275, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d6fe60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dfe94ba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26620a70, org.springframework.security.web.session.SessionManagementFilter@1632fc1e, org.springframework.security.web.access.ExceptionTranslationFilter@44b2e769, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bfb38b3]
+2021-06-11 17:55:14.982  WARN 31544 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-11 17:55:14.983  INFO 31544 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-11 17:55:16.156  INFO 31544 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2021-06-11 17:55:16.899  INFO 31544 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-06-11 17:55:16.958  WARN 31544 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-06-11 17:55:16.979  INFO 31544 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-06-11 17:55:17.158  INFO 31544 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2021-06-11 17:55:17.206  INFO 31544 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2021-06-11 17:55:17.225  INFO 31544 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2021-06-11 17:55:17.235  INFO 31544 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler _org.springframework.integration.errorLogger
+2021-06-11 17:55:17.273  INFO 31544 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-06-11 17:55:17.274  INFO 31544 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2021-06-11 17:55:17.274  INFO 31544 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2021-06-11 17:55:17.279  INFO 31544 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2021-06-11 17:55:17.349  INFO 31544 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2021-06-11 17:55:17.349  INFO 31544 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2021-06-11 17:55:17.443  INFO 31544 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.8Ex0RYmKRzK2baPRWjA_WA, bound to: springCloudBus
+2021-06-11 17:55:17.445  INFO 31544 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-06-11 17:55:17.502  INFO 31544 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#88d103:0/SimpleConnection@2b4cf679 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54531]
+2021-06-11 17:55:17.570  INFO 31544 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.8Ex0RYmKRzK2baPRWjA_WA.errors' has 1 subscriber(s).
+2021-06-11 17:55:17.571  INFO 31544 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.8Ex0RYmKRzK2baPRWjA_WA.errors' has 2 subscriber(s).
+2021-06-11 17:55:17.587  INFO 31544 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.8Ex0RYmKRzK2baPRWjA_WA'
+2021-06-11 17:55:17.626  INFO 31544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54532 (http) with context path ''
+2021-06-11 17:55:17.627  INFO 31544 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 54532
+2021-06-11 17:55:17.633  INFO 31544 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-11 17:55:17.688  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-11 17:55:17.692  INFO 31544 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 17:55:17.728  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-11 17:55:17.729  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-11 17:55:17.729  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-11 17:55:17.729  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-11 17:55:17.729  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-11 17:55:17.729  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-11 17:55:17.729  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-11 17:55:17.893  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-06-11 17:55:17.900  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-06-11 17:55:17.908  INFO 31544 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-11 17:55:17.922  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1623414317921 with initial instances count: 2
+2021-06-11 17:55:17.926  INFO 31544 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERS-WS with eureka with status UP
+2021-06-11 17:55:17.926  INFO 31544 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1623414317926, current=UP, previous=STARTING]
+2021-06-11 17:55:17.928  INFO 31544 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:78c39916d68c5c0a9cabc2deaf533c2d: registering service...
+2021-06-11 17:55:17.970  INFO 31544 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERS-WS/users-ws:78c39916d68c5c0a9cabc2deaf533c2d - registration status: 204
+2021-06-11 17:55:18.302  INFO 31544 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.8Ex0RYmKRzK2baPRWjA_WA.errors
+2021-06-11 17:55:18.328  INFO 31544 --- [restartedMain] c.a.p.a.u.PhotoAppApiUsersApplication    : Started PhotoAppApiUsersApplication in 11.831 seconds (JVM running for 13.059)
+2021-06-11 17:55:18.336  INFO 31544 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-11 17:55:18.338  INFO 31544 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-11 17:55:19.036  INFO 31544 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-11 17:55:19.036  INFO 31544 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-11 17:55:19.038  INFO 31544 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-11 17:55:54.429  INFO 31544 --- [http-nio-auto-1-exec-1] c.a.p.a.u.s.UsersServiceImplementation   : Before calling albums microservice
+2021-06-11 17:55:54.432 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] ---> GET http://albums-ws/users/a7ef3b0c-7ef0-45b3-899c-c0f8326aae9f/albums HTTP/1.1
+2021-06-11 17:55:54.433 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] ---> END HTTP (0-byte body)
+2021-06-11 17:55:54.687 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] <--- HTTP/1.1 200 (253ms)
+2021-06-11 17:55:54.688 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] content-type: application/json;charset=UTF-8
+2021-06-11 17:55:54.688 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] date: Fri, 11 Jun 2021 12:25:54 GMT
+2021-06-11 17:55:54.689 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] transfer-encoding: chunked
+2021-06-11 17:55:54.690 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] 
+2021-06-11 17:55:54.690 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] [{"albumId":"album1Id","userId":"a7ef3b0c-7ef0-45b3-899c-c0f8326aae9f","name":"album 1 name","description":"album 1 description"},{"albumId":"album2Id","userId":"a7ef3b0c-7ef0-45b3-899c-c0f8326aae9f","name":"album 2 name","description":"album 2 description"}]
+2021-06-11 17:55:54.691 DEBUG 31544 --- [http-nio-auto-1-exec-1] c.a.p.api.users.data.AlbumServiceClient  : [AlbumServiceClient#getAlbums] <--- END HTTP (259-byte body)
+2021-06-11 17:55:54.700  INFO 31544 --- [http-nio-auto-1-exec-1] c.a.p.a.u.s.UsersServiceImplementation   : After calling albums microservice
+2021-06-11 18:00:17.735  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:05:17.745  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:10:17.754  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:15:17.765  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:20:17.777  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:25:17.786  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:30:17.796  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:35:17.810  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:40:17.825  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:45:17.838  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:50:17.841  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 18:55:17.854  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:00:17.866  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:05:17.878  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:10:17.888  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:15:17.903  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:20:17.920  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:25:17.935  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:30:17.940  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:35:17.944  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:40:17.955  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:45:17.960  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:50:17.967  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 19:55:17.973  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:00:17.978  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:05:17.980  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:10:17.995  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:15:18.000  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:20:18.009  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:25:18.024  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:30:18.028  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:35:18.042  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:40:18.052  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:45:18.065  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:50:18.069  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 20:55:18.071  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:00:18.086  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:05:18.089  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:10:18.096  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:15:18.102  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:20:18.118  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:25:18.132  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:30:18.146  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:35:18.151  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:40:18.164  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:45:18.173  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:50:18.177  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 21:55:18.183  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:00:18.194  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:05:18.196  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:10:18.198  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:15:18.206  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:20:18.211  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:25:18.213  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:30:18.217  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:35:18.231  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-11 22:40:18.244  INFO 31544 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

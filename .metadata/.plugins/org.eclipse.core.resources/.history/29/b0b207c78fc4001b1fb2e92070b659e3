@@ -1,0 +1,5 @@
+package com.appsdeveloperblog.app.ws.Exception;
+
+public class AppExceptionHandler {
+
+}
